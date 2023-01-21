@@ -8,12 +8,39 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>People entered:</h1>
-    <h2 id="count">0</h2>
-    <button id="increment-btn" onclick="increment()">INCREMENT</button> 
-    <div><button id="save-btn" onclick="save()">SAVE</button></div>
-    <div><button id="reset-btn" onclick="reset()">RESET</button></div>
-    <p id="save-el">Previous entries: </p>
+    <!--<div class="container">
+        <h1>People entered:</h1>
+        <h2 id="count">0</h2>
+        <button id="increment-btn" onclick="increment()">INCREMENT</button> 
+        <button id="save-btn" onclick="save()">SAVE</button>
+        <p id="save-el">Previous entries: </p>
+    </div>
+-->
+
+    
+        <div class="container">
+            <div class="column">
+                <h3>HOME</h3>
+                <h2 id="score1" class="score">0</h2>
+                <div>
+                    <button onclick="plus1()">+1</button>
+                    <button onclick="plus2()">+2</button>
+                    <button onclick="plus3()">+3</button>
+                </div>
+            </div>
+            <div class="column">
+                <h3>GUEST</h3>
+                  <h2 id="score2" class="score">0</h2>
+                <div>
+                    <button onclick="plus11()">+1</button>
+                    <button onclick="plus22()">+2</button>
+                    <button onclick="plus33()">+3</button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+
+
+
     <script src="index.js"></script>
 </body>
 </html>
